@@ -18,7 +18,7 @@ jobs:
           # GitHub Personal Access Token (PAT)
           API_TOKEN_GITHUB: ${{ secrets.AUTO_SYNC_TOKEN }}
         with:
-          source-directory: '.' 
+          source-directory: 'content' 
           destination-github-username: 'JunhOpportunity' # 본인 아이디 확인
           destination-repository-name: 'tech-blog'       # 블로그 소스 레포 이름
           user-email: 'twinjyjh5@gmail.com'
