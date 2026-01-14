@@ -1,0 +1,26 @@
+name: Sync Content to Tech Blog
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Content Repo
+        uses: actions/checkout@v3
+
+      - name: Pushes to Tech Blog Repo
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          # GitHub Personal Access Token (PAT)
+          API_TOKEN_GITHUB: ${{ secrets.AUTO_SYNC_TOKEN }}
+        with:
+          source-directory: '.' 
+          destination-github-username: 'JunhOpportunity' # 본인 아이디 확인
+          destination-repository-name: 'tech-blog'       # 블로그 소스 레포 이름
+          user-email: 'twinjyjh5@gmail.com'
+          target-directory: 'content' # 블로그 레포 내의 content 폴더로 복사됨
+          target-branch: main
