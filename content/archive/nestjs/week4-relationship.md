@@ -1,5 +1,5 @@
 ---
-title: "TypeORM 이론"
+title: "Relationship"
 date: "2025-12-25"
 category: "nestjs"
 ---
