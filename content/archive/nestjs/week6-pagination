@@ -11,7 +11,7 @@ category: "nestjs"
 - Page Based Pagination : 페이지 숫자를 누르면 다음 페이지로 넘어갈 때 많이 사용. 알고리즘이 매우 간단하지만 데이터가 추가되거나 삭제되는 경우 누락되는 데이터가 발생할 수 있음.
 - Cursor Based Pagination : 가장 최근에 가져온 데이터를 기준으로 다음 데이터를 가져옴. 스크롤 형태의 페이지에서 많이 사용.
 
-### Page Based Pagination
+## Cursor Based Pagination
 
 1. dto 작성 (프로퍼티)
 
@@ -94,3 +94,5 @@ export class PostsService {
     return this.postsService.paginatePosts(query);
   }
 ```
+
+## Page based pagination
