@@ -2,6 +2,7 @@
 title: "컴파운드 컴포넌트 적용해보기"
 date: "2024-02-15"
 category: "디자인패턴"
+series: "디자인패턴"
 ---
 
 # Compound Component
