@@ -1,6 +1,6 @@
 ---
 title: "스택과 큐"
-date: "2023-12-18"
+date: "2023-12-16"
 category: "datastructure"
 ---
 
