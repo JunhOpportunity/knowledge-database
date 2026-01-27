@@ -1,6 +1,6 @@
 ---
 title: "트리와 노드, 이진 트리"
-date: "2023-12-13"
+date: "2023-12-22"
 category: "datastructure"
 ---
 
