@@ -1,4 +1,8 @@
-
+---
+title: "덱"
+date: "2023-12-18"
+category: "datastructure"
+---
 # 덱
 
 > head와 tail 양 쪽에서 자유롭게 삽입과 제거가 가능한 것
