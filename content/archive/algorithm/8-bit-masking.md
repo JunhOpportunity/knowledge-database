@@ -88,5 +88,3 @@ function tsp(city, visited_cities) {
 	}
 }
 ```
-
-ㅋ
