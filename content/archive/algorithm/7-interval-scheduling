@@ -1,0 +1,51 @@
+---
+title: "인터벌 스케줄링 알고리즘"
+date: "2024-01-15"
+category: "algorithm"
+---
+
+# 인터벌 스케줄링 알고리즘
+
+> 한정된 시간동안 최대한 많은 선택을 할 수 있도록 하는 것
+> 
+
+개발자 컨퍼런스에서 세션을 듣는다고 가정했을 때, 가장 많은 세션을 듣는 방법을 찾을 때 사용할 수 있는 알고리즘이다.
+
+## 구현
+
+```jsx
+class Job{
+	constructor() {
+		this.
+		this.
+		this.
+	}
+}
+
+class IntervalScheduler{
+	constructor() {
+		this.jobs = [];
+	}
+	
+	addJob() {
+		this.jobs.push(job);
+	}
+
+	intervalScheduling() {
+		// 끝나는 시간이 이른 순으로 정렬
+		this.jobs.sort((a, b) => a.endTime - b.endTime);
+		let result = [];
+		
+		for(let currentJob of this.jobs) {
+			if(result.length == 0) {
+					result.push(currentJob);
+			// 시작 시간이 현재 선택한 세션 중 마지막 세션의 종료 시간 이후인 세션
+			} else if(currentJob.startTime >= result[result.length -1].endTime) {
+				result.push(currentJob);
+			}
+		}
+		
+		console.log(result);
+	}
+}
+```
