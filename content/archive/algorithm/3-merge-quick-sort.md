@@ -9,7 +9,8 @@ category: "algorithm"
 > 가장 작은 단위로 나눈 뒤 조금씩 정렬해서 병합하는 알고리즘
 > 
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c77b689e-2c1c-4a87-8551-170233e3494c/280af109-ca95-45b7-a309-1767ad4afc12/Untitled.png)
+<img width="499" height="360" alt="image" src="https://github.com/user-attachments/assets/4c31e722-568d-42f8-9866-36c6c3715b87" />
+
 
 **divide and conquer(분할 정복)** : 해결하기 힘든 문제가 발생한다면 이걸 한 번에 해결하려고 하지 말고, 해결하기 쉬울 정도로 문제를 쪼갠 다음 하나씩 해결하자.
 
