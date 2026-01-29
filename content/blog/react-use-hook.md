@@ -2,6 +2,7 @@
 title: "Next.js App router 에서 TanStack Query를 효율적으로 쓸 수 있는 방법에 대해 알아보자"
 date: "2024-02-24"
 category: "React"
+series: "React"
 description: "React 19 버전에 등장 예정인 새로운 훅, use 훅에 대해 알아봅시다."
 ---
 <img width="754" height="380" alt="image" src="https://github.com/user-attachments/assets/dde6d198-15a8-48ad-9092-830192d3e08a" />
