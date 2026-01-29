@@ -3,6 +3,7 @@ title: "아토믹 패턴"
 date: "2024-02-11"
 category: "디자인패턴"
 series: "디자인패턴"
+description: "화학적 관점에서 영감을 얻은 디자인 시스템인 아토믹 디자인 패턴에 대해 알아보자."
 ---
 <img width="1037" height="576" alt="image" src="https://github.com/user-attachments/assets/84b9e388-5cbf-4276-beb3-5fd7c9f237c4" />
 
