@@ -2,7 +2,11 @@
 title: "Next.js App router 에서 TanStack Query를 효율적으로 쓸 수 있는 방법에 대해 알아보자"
 date: "2025-07-16"
 category: "상태관리"
+description: "클라이언트 컴포넌트 내부에 서버 컴포넌트를 써야 하는 상황이 발생했다. 어떻게 해결해야 할까..?"
 ---
+
+<img width="1023" height="569" alt="image" src="https://github.com/user-attachments/assets/5ce83b05-1a20-4ded-90f6-5abc50dd4b1e" />
+
 
 # Next.js App router 에서 TanStack Query를 효율적으로 쓸 수 있는 방법에 대해 알아보자
 ## 1. `TanStack Query + App Router` 사용 시 직면하는 문제
