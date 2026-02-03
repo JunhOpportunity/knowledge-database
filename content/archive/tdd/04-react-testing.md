@@ -4,7 +4,7 @@ date: "2024-01-30"
 category: "tdd"
 ---
 
-## React Testing Library
+# React Testing Library
 
 > UI 컴포넌트를 사용자가 사용하는 방식으로 테스트 하자는 것이 핵심 철학이다
 > 
