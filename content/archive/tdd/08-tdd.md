@@ -1,6 +1,6 @@
 ---
 title: "TDD란?"
-date: "2024-01-24"
+date: "2024-02-16"
 category: "tdd"
 ---
 # TDD란?
