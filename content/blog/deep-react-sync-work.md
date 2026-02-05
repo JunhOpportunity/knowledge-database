@@ -3,7 +3,7 @@ title: "Sync Work를 처리하는 방법에 대해 알아보자."
 date: "2025-09-30"
 category: "React"
 series: "deep-react"
-description: "iber 아키텍처를 도입하면서 WORK의 우선순위 조정에도 변동이 생겼다. 이때 등장한 개념들에 대해 알아보자."
+description: "Fiber 아키텍처를 도입하면서 WORK의 우선순위 조정에도 변동이 생겼다. 이때 등장한 개념들에 대해 알아보자."
 ---
 
 <img width="1120" height="624" alt="image" src="https://github.com/user-attachments/assets/2e007ca1-c82c-4506-92cf-6b2574977de5" />
