@@ -1,6 +1,6 @@
 ---
 title: "setState를 구성하는 IDLE과 Render Phase에 대해 알아보자"
-date: "2025-09-01"
+date: "2025-09-24"
 category: "React"
 series: "deep-react"
 description: "IDLE과 Render Phase란 무엇이고 어디에 쓰이는지에 대해 깊이 탐구해보자."
