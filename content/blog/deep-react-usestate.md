@@ -6,6 +6,8 @@ series: "deep-react"
 description: "useState의 비밀을 파헤치기 위해 코드를 뜯어보자."
 ---
 
+<img width="1124" height="620" alt="image" src="https://github.com/user-attachments/assets/cc62d3a4-0be5-4d28-9035-7f9d0d17d992" />
+
 
 # useState와 Linked List
 
