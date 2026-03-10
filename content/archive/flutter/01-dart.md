@@ -1,6 +1,6 @@
 ---
 title: "Dart 기본 문법"
-date: "2025-02-09"
+date: "2026-02-09"
 category: "dart"
 ---
 
