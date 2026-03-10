@@ -1,6 +1,6 @@
 ---
 title: "Dart 함수형 프로그래밍"
-date: "2025-02-11"
+date: "2026-02-11"
 category: "dart"
 ---
 
