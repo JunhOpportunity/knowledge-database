@@ -10,6 +10,7 @@ category: "Flutter"
 - 화면에 보여지는 모든 것은 위젯이라고 칭한다.
 - MaterialApp은 항상 최상위에 위치한다.
 - Scaffold는 바로 아래에 위치한다.
+- 배경 색상은 `Colors` 에서 선택하거나 `Color(0xFF335CB0)` 이렇게 Color 클래스 내부에 `0xFF` 뒤에 헥스 코드를 넣어준다.
 
 ```dart
 void main() {
@@ -32,3 +33,25 @@ void main() {
   );
 }
 ```
+
+```dart
+void main() {
+  runApp(
+    MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        backgroundColor: Color(0xFF335CB0),
+        body: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Image.asset('asset/img/logo.png'),
+            CircularProgressIndicator(color: Colors.white),
+          ],
+        ),
+      ),
+    ),
+  );
+}
+```
+
+- `CircularProgressIndicator(color: Colors.white)` 를 사용하면 간편하게 로딩 프로그레스 UI를 보여줄 수 있다.
