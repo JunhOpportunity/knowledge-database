@@ -8,7 +8,8 @@ category: "async"
 
 ## 인증 과정
 
-![image.png](attachment:9ed29e68-23ce-4dda-b60b-8db3e5602e05:image.png)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c9f70945-8dde-4ad8-afb7-41aa239ae2e7" />
+
 
 ## 세션과 쿠키
 
