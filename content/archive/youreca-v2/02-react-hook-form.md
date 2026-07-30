@@ -112,3 +112,63 @@ const {
 
 register("username")
 ```
+
+# 실전 사용
+
+로그인을 위한 이메일과 비밀번호를 입력할 수 있는 폼에 대해서 React Hook Form을 작성해보았다.
+
+일단, LoginForm 타입을 생성했는데 여기서 타입은 React Hook Form의 register 부분에 들어가는 내용이다.
+
+따라서 타입을 설정해두면 자동완성도 가능해지고 오타도 방지할 수 있게된다.
+
+```jsx
+type LoginForm = {
+  email: string;
+  password: string;
+};
+
+function App() {
+
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm<LoginForm>();
+
+  const onSubmit = () => {
+    console.log("onsubmit");
+  };
+
+  return (
+    <div>
+      <form onSubmit={handleSubmit(onSubmit)}>
+        <input
+          type="email"
+          placeholder="이메일"
+          {...register("email", {
+            required: "이메일을 입력해주세요.",
+          })}
+        />
+
+        {errors.email && <p>{errors.email.message}</p>}
+
+        <input
+          placeholder="비밀번호"
+          type="password"
+          {...register("password", {
+            required: "비밀번호를 입력해주세요.",
+            minLength: {
+              value: 8,
+              message: "8자 이상 입력해주세요.",
+            },
+          })}
+        />
+
+        {errors.password && <p>{errors.password.message}</p>}
+        
+        <button>회원가입</button>
+      </form>
+    </div>
+  );
+}
+```
