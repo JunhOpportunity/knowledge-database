@@ -58,6 +58,20 @@ useQuery({
 
 queryFn은 queryKey를 기반으로 데이터를 가져오는 함수이며, Promise를 반환해야 한다.
 
+함수 자체를 가져오는 것과, 매개변수를 호출할 때의 코드가 살짝 다르다.
+
+```jsx
+useQuery({
+  queryKey: ["user", userId],
+  queryFn: () => getUser(1)
+})
+
+useQuery({
+  queryKey: ["user", userId],
+  queryFn: getUser()
+})
+```
+
 ### placeholderData
 
 새로운 데이터를 가져오는 과정에서 쿼리가 무효화되어 일시적으로 데이터가 없는 상태가 되면 데이터 출력 화면이 깜빡이거나 안 보일 수 있는데, 이런 문제를 방지하기 위해서 쿼리 함수가 호출되는 대기 상태(Pending)에서 표시할 데이터를 미리 지정할 수 있다.
